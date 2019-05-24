@@ -8,13 +8,13 @@
 <h1>Login</h1>
 <form action="bio.html">
 <label>Username</label> <br>
-<input type="text" name="username" placeholder="enter username"/>
+<input type="text" minlength="4" name="username" placeholder="enter username"/>
 <br>
 <br>
 <label>Password</label><br>
-<input type="password" placeholder="enter password" />
+<input type="password" minlength="4" placeholder="enter password" />
 <br>
-<input type="checkbox" id="agree"  name="agree" /> <label for="agree">I agree</label>
+<input type="checkbox" id="agree"  name="agree" required /> <label for="agree">I agree</label>
 <br>
 <br>
 <input type="submit" value="Login"/>
