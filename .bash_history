@@ -115,3 +115,8 @@ git status
 pwd
 git checkout master
 git push
+git checkout -b html-practice
+code .
+pwd
+cd /c
+cd ~
