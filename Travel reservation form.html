@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <head>
+        <title>Travel reservation form</title>
+        <meta charset=UTF-8"/>
+    </head>
+
+    <body>
+        <form>
+            <h1><b>Travel reservation form</b></h1>
+            <br>
+            <h3><b>* denotes mandatory</b></h3>
+            <br>
+            Full name*: <br> 
+            <input type="text" name="Full name" placeholder="FirstName Lastname" required>
+            <br>
+            Email adress*: <br>
+            <input type="email" name="email" placeholder="EMAIL_ADRESS" required>
+            <br>
+            Select Tour Package* : <br>
+            <select name="Packages" required>
+                <option value="sea caves">Sea caves</option>
+                <option value="Jeep safari">Jeep safari</option>
+                <option value="Cheese market">Cheese market</option>
+            </select>
+            <br>
+            Arrival date*: <br>
+            <input type="date" name="Arrival date" required>
+            <br>
+            Number of persons*: <br>
+            <input type="number" name="Number of persons" placeholder="UNKNOWN_TYPE" required> <br>
+            What would you want to avail? <br>
+            <input type="checkbox" name="Boarding" value="Boarding">Boarding <br>
+            <input type="checkbox" name="Fooding" value="Fooding">Fooding <br>
+            <input type="checkbox" name="Sight seeing" value="Sight seeing">Sight seeing <br>
+            Discout Coupon code: <br>
+            <input type="text" name="coupon" placeholder="UNKNOWN_TYPE"> <br>
+            Terms and conditions* <br>
+            <input type="radio" name="terms" value="agree" required checked>I agree
+            <input type="radio" name="terms" value="disagree" required>I disagree
+            <br>
+            <input type="submit" name="Submit" value="Complete reservation">
+        </form>
+    </body>
+</html>
