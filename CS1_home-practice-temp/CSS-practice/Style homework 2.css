@@ -1,0 +1,44 @@
+input {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+}
+
+li:nth-child(even) {
+    color:green;
+}
+li:nth-child(3) {
+    background-color: lightskyblue;
+}
+li:nth-child(1) {
+    border-top: 1px solid green;
+}
+li:nth-child(7) {
+    border-bottom: 5px dotted blue;
+}
+
+.link3, .link5 {
+color: red;
+}
+#fifth a:hover {
+    color: grey;
+}
+
+#second, #fifth {
+   list-style-type: none;
+}
+
+input[type=text]:focus {
+    background-color: grey;
+}
+
+input[type=text]:nth-child(1) {
+    color:green;
+}
+input[type=text]:nth-child(2) {
+    color:blue;
+}
+
+input[type=submit]:hover {
+color:red;
+}
