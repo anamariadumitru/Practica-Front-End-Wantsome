@@ -1,0 +1,30 @@
+body {
+    background-color:lightsalmon;
+    margin: 10px 20px;
+    padding: 1.4em;
+    font-family: 'Pacifico', cursive;
+}
+
+#cl1, #cl2, #cl3, #cl4{
+    display: block;
+    border: 1px solid black;
+    color: green;
+}
+#cl3 {
+    color:red;
+}
+div.gallery {
+    margin: 20px;
+ 
+}
+  div.gallery img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    border:2px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
