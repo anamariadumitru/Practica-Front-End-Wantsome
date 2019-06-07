@@ -1,0 +1,33 @@
+.container {
+    position: relative;
+    border: 2px solid turquoise;
+    height: 250px;
+  }
+
+nav {
+    position: absolute;
+    left 0;
+    border: 2px solid red;
+    width: 200px;
+    color: fuchsia;
+}
+
+section {
+    display: block;
+    border: 2px solid yellow;
+    margin-left: 200px;
+    padding:30px;
+}
+
+footer {
+    border: 2px solid rgb(26, 206, 26);
+    padding: 50px;
+    text-align: center;
+    position: fixed;
+    width: 1800px;
+    height: auto;
+}
+
+section:nth-child(odd) {
+    background-color: grey;
+}
