@@ -1,5 +1,10 @@
 git status
 git add .
-git commit -m "moved practice files to a new folder"
-git push
+git init
+git status
+git pull
+cd CSS
+cd CSS-practice
+git checkout -b CSS
+git status
 git status
