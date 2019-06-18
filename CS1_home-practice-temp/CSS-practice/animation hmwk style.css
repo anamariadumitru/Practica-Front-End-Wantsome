@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:bisque;
+}
+
+.box span{
+    width:30px;
+    height:30px;
+    margin: 0 2px;
+    background-color: red;
+    border-radius:50%;
+    display: inline-block;
+    animation-name: dots;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.box span:nth-child(2) {
+background-color: yellow;
+animation-delay:0.4s;
+}
+
+.box span:nth-child(3) {
+    background-color: blue;
+    animation-delay:0.8s;
+    }
+
+@keyframes dots{
+    20% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+}

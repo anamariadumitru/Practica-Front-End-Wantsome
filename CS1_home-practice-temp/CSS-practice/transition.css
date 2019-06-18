@@ -1,0 +1,45 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  -webkit-transition-duration: 3s;
+          transition-duration: 3s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+
+.box:hover {
+  background-color: yellow;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.red {
+  margin-top: 300px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.blue {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.boxes:hover .red {
+  width: 300px;
+  -webkit-transition: width 2s linear;
+  transition: width 2s linear;
+}
+
+.boxes:hover .blue {
+  width: 300px;
+  -webkit-transition: width 2s linear;
+  transition: width 2s linear;
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
+}
+/*# sourceMappingURL=transition.css.map */

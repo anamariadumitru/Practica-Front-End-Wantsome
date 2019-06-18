@@ -1,0 +1,39 @@
+.box {
+    width: 100px;
+    height: 100px;
+   background-color:red;
+   transition-duration: 3s;
+   transition-property: transform;
+   
+}
+
+.box:hover {
+background-color:yellow;
+transform: rotate(180deg);
+}
+
+
+.red{
+    margin-top: 300px;
+    width: 100px;
+    height: 100px;
+    background-color:red;
+}
+
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+   
+}
+
+.boxes:hover .red{
+    width:300px;
+    transition: width 2s linear;  
+}
+
+.boxes:hover .blue{
+    width:300px;
+    transition: width 2s linear; 
+    transition-delay: 2s; 
+}
